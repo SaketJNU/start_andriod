@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3">
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textColor="#4E2727"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Count: 0" />
+
+    <Button
+        android:id="@+id/inc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textColor="#caa"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Increment" />
+
+    <Button
+        android:id="@+id/dec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textColor="#bcc"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Decrement" />
+
+    <Button
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="reset"
+        android:textAlignment="center"
+        android:textColor="#abb"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        app:srcCompat="@android:drawable/ic_lock_lock" />
+</LinearLayout>
