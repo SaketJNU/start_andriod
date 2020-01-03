@@ -1,2 +1,3 @@
 # start_andriod
-Basic Android Codes
+This repository includes android codes for begineers.
+
